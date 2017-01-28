@@ -1,5 +1,5 @@
 # GWAchievements
-Android Application for Easy Display of Guild Wars 2 Achievements
+Android Application for Easy Display of Guild Wars 2 Achievements;
 Current gw2 server config makes event timers, region instance information unusable
 
 #current toDo list:
