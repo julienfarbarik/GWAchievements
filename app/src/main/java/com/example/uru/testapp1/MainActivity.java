@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
             try {
                 jDThread.start();
-                while(jDThread.getState() != Thread.State.TERMINATED){}          ///THIS IS BAD CODE. FIX IT OR YOUR APP WILL DIE
+                while(jDThread.getState() != Thread.State.TERMINATED){}          ///implement as executor? This freezes main thread. Bad.
                 HashMap<Integer, GWAchievement> result = new HashMap<>(jsonDisp.getResult());
 
                 String ListOfStuff = "";
